@@ -1,0 +1,83 @@
+* {
+	/*background-color: blue;*/
+	font-family: 'roboto';
+}
+
+body {
+	text-align: center;
+	margin: 0;
+	background-color: #298eea;
+}
+
+body * {
+	box-sizing: border-box;
+}
+
+img {
+	height: 35px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+form {
+	margin: auto;
+	background-color: white;
+	text-align: center;
+	width: 400px;
+	/*padding: 40px;*/
+	border: 3px solid white;
+	border-radius: 3px;
+}
+
+fieldset {
+	border: none;
+}
+
+label {
+	display: block;
+	text-align: left;
+	padding: 5px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+
+#email, #password {
+	display: inline-block;
+	border: 2px solid #e7e7e7;
+	width: 303px;
+	height: 38px;
+	border-radius: 3px;
+	padding: 15px;
+	margin: auto;
+	height: auto;
+	font-size: 18px;
+}
+
+button {
+	color: white;
+	background-color: #15cd72;
+	border: 2px solid #15cd72;
+	margin-top: 30px;
+
+	width: 303px;
+	height: 38px;
+	border-radius: 3px;
+	padding: 15px;
+	font-size: 22px;
+	height: auto;
+}
+
+button:hover {
+	background-color: #0CB863;
+	border: 2px solid #0CB863;
+}
+
+.password {
+	color: lightgrey;
+}
+
+.account {
+	color: white;
+	font-weight: bold;
+}

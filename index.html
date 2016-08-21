@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>Analog Sea Form Exercise</title>
+	  <link rel="stylesheet" type="text/css" href="main.css">
+	  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<img src="analog_sea_logo.png">
+	</header>
+
+	<main>
+		<form action="/signup" method="post">
+			<fieldset name="sign-up">
+				<h1>Sign up</h1>
+				<label for="email" required>Email</label><input placeholder="foo@bar.com" type="email" name="email" id="email" class="signup" />
+				<label for="password" required>Password</label><input placeholder="1234passw0rd" type="password" name="password" id="password" class="signup" />
+			<!-- <fieldset name="submit"> -->
+				<button class="signup" type="submit">Sign up</button>
+				<p><a class="password" href="/forgot-password/new">Forgot password?</a></p>
+			</fieldset>
+		</form>
+	</main>
+
+	<p class="account">Already have an account? <a class="account" href=/login/>Log in</a></p>
+
+</body>
+</html>
